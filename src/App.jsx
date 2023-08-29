@@ -1,23 +1,21 @@
 import Cabecalho from "./assets/components/Cabecalho";
-
+import Conteudo from "./assets/components/Conteudo";
+import Rodape from "./assets/components/Rodape"
+import
 
 export default function App() {
+
+ 
+  
   return (
     <>
       <div className="container">
 
        <Cabecalho/>
+        
+       <Conteudo/>
 
-        <section>
-          <p><a href="/">Home page</a></p>
-            <button onClick={() => alert("hello word")}>
-              Click me!
-            </button>
-        </section>
-
-        <footer>
-          <p>&copy; 2021, Vite.js and React</p>
-        </footer>
+       <Rodape/>
 
       </div>
     
